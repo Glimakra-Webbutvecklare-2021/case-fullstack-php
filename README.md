@@ -1,27 +1,28 @@
 # Case Fullstack PHP
-I caset ska en applikation kodas som lagrar data i en relationsdatabas. Applikationen fungerar för att en administratör ska kunna skriva och skicka nyhetsbrev. E-breven ska kunna skickas till samtliga emails kopplade till för de som är registerade mottagare.
+I caset ska en applikation kodas som lagrar data i en relationsdatabas. Applikationen fungerar för att en administratör ska kunna skriva och publicera enklare hemsidor eller blogg-inlägg förslagsvis kallad `Page`.
 
 ## Grundläggande krav
 - Programspråk som får användas är PHP (utan ramverk), Javascript, HTML/CSS
+- Visa alla hemsidor som är publicerade genom applikationen
 - Administratör skall kunna:
   - Loggas in
   - Registera sig
   - Läsa, skapa, editera och ta bort resurs
   - Lösenordet skall vara kryperad innan det lagras i databasen
- - Nyhetsbrev skall:
-  - Ha minst tre databas-kolumner utöver primary key (t.ex subject, body, receiver)
-  - Vara länkad på databasnivå till en användar
+ - Pages tabellen skall:
+  - Ha minst fyra databas-kolumner utöver primary key (t.ex title, markdown_content, created_at, site_id)
+  - Vara länkad på databasnivå till en användare
   - Hantera markdown (Det fungerar att spara ner det som text och låta klienten parsa markdown till html)
 - Användare skall kunna:
-  - Registera sig som intresserad av nyhetsbrev
+  - Besöka flera olika användares sidor t.ex "thewebapp.com/username1/my-cool-site/about" och "thewebapp.com/username2/quick-blog/contact"
   
 ## Utmaning
 Utöver alla grundläggande krav:
 - Applikationen ska vara publicerad via Linode eller liknande hosting tjänst
-- Nyhetsbrevet ska kunna skicka bilder
-- Användare skall kunna:
-  - Avregistera sig som intresserad av nyhetsbrev
-  - Välja mellan olika ämnen som intresserar dem t.ex Cooking eller Web development. Administratören ska kunna välja vilken intressegrupp för sitt nyhetsbrev.
+- Administratör ska kunna spara Page som draft
+- Pages ska kunna hantera bilder
+- Besökare skall kunna:
+  - Registera sig som intresserad av nyhetsbrev
  
 ## Feedback
 Veckan efter presentation kommer feedback ges under följande rubriker:
