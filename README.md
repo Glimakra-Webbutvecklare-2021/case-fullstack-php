@@ -9,7 +9,7 @@ I caset ska en applikation kodas som lagrar data i en relationsdatabas. Applikat
   - Registera sig
   - Läsa, skapa, editera och ta bort resurs
   - Lösenordet skall vara kryperad innan det lagras i databasen
- - Pages tabellen skall:
+- Pages tabellen skall:
   - Ha minst fyra databas-kolumner utöver primary key (t.ex title, markdown_content, created_at, site_id)
   - Vara länkad på databasnivå till en användare
   - Hantera markdown (Det fungerar att spara ner det som text och låta klienten parsa markdown till html)
