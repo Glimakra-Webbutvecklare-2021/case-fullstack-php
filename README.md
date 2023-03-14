@@ -35,5 +35,5 @@ Veckan efter presentation kommer feedback ges under följande rubriker:
 
 *Designfeedback tillkommer från Mattias*
 
-Presentation- och Inlämningsdatum
-Presenteras och in lämning för feedback 4 april kl 8.45. Tiden 4e till 6de april är feedbackperiod då ni får feedback, ni kan under tiden jobba med er portfolio och göra klart gamla case.
+## Presentation- och Inlämningsdatum
+Presenteras och inlämning för feedback är den 4:e april kl 8.45. Tiden 4e till 6de april är feedbackperiod då ni får feedback, ni kan under tiden jobba med er portfolio och göra klart gamla case.
